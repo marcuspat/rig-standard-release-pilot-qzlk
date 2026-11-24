@@ -1,0 +1,10 @@
+{
+  "repository": "marcuspat/rig-standard-release-pilot-qzlk",
+  "repo_id": 1469554545,
+  "owner": "marcuspat",
+  "effective": "2026-11-23",
+  "maintainer": "marcuspat",
+  "profile": "release",
+  "release_kind": "site",
+  "license": null
+}
