@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://marcuspat.github.io/rig-standard-release-pilot-qzlk/sitemap.xml

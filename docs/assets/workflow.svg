@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 156" role="img" aria-labelledby="title">
+  <title id="title">Review, verify, and publish</title>
+  <rect width="760" height="156" rx="20" fill="#172d40"/>
+  <g fill="#284657">
+    <rect x="22" y="40" width="218" height="76" rx="12"/>
+    <rect x="271" y="40" width="218" height="76" rx="12"/>
+    <rect x="520" y="40" width="218" height="76" rx="12"/>
+  </g>
+  <g fill="none" stroke="#8be2c8" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M246 78h18m-5-4 5 4-5 4"/><path d="M495 78h18m-5-4 5 4-5 4"/>
+  </g>
+  <g fill="#effaf7" font-family="system-ui,sans-serif" font-size="20" font-weight="650" text-anchor="middle">
+    <text x="131" y="85">Review the commit</text>
+    <text x="380" y="85">Verify the draft</text>
+    <text x="629" y="85">Publish the site</text>
+  </g>
+</svg>
