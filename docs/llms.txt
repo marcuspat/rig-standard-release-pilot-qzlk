@@ -1,0 +1,6 @@
+# Turbo Rig release pilot
+
+> A small static site used to verify the Turbo Rig GitHub release workflow.
+
+- [Landing page](https://marcuspat.github.io/rig-standard-release-pilot-qzlk/)
+- [Release checks](https://marcuspat.github.io/rig-standard-release-pilot-qzlk/checks/)

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 144" role="img" aria-labelledby="title">
+  <title id="title">Turbo Rig Release pilot</title>
+  <style>
+    @keyframes track { 0% { stroke-dashoffset: 236; } 70%, 100% { stroke-dashoffset: 0; } }
+    .signal { animation: track 4s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .signal { animation: none; stroke-dashoffset: 0; } }
+  </style>
+  <rect width="760" height="144" rx="20" fill="#162b40"/>
+  <text x="34" y="59" fill="#f4faff" font-family="system-ui,sans-serif" font-size="29" font-weight="700">Turbo Rig release pilot</text>
+  <text x="34" y="101" fill="#b6d1e6" font-family="system-ui,sans-serif" font-size="18">Verified GitHub Pages release</text>
+  <path d="M485 74H721" stroke="#3d5c70" stroke-width="5" stroke-linecap="round"/>
+  <path class="signal" d="M485 74H721" stroke="#73dfbf" stroke-width="5" stroke-linecap="round" stroke-dasharray="236" stroke-dashoffset="0"/>
+  <g fill="#bffde6"><circle cx="485" cy="74" r="7"/><circle cx="602" cy="74" r="7"/><circle cx="721" cy="74" r="7"/></g>
+</svg>

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "repository": "marcuspat/rig-standard-release-pilot-qzlk",
+  "license": "MIT",
+  "license_holder": "Marcus Patman",
+  "github": {
+    "visibility": "public",
+    "description": "Static site pilot for Turbo Rig’s verified GitHub release process.",
+    "topics": [
+      "github-pages",
+      "release-pilot",
+      "static-site",
+      "turbo-rig"
+    ],
+    "pages": {
+      "source_path": "/docs",
+      "homepage": "https://marcuspat.github.io/rig-standard-release-pilot-qzlk/"
+    },
+    "uat": [
+      {
+        "path": "",
+        "contains": "Turbo Rig release pilot",
+        "link": "checks/"
+      },
+      {
+        "path": "checks/",
+        "contains": "Release checks",
+        "link": "assets/workflow.svg"
+      },
+      {
+        "path": "assets/workflow.svg",
+        "contains": "Verify the draft"
+      },
+      {
+        "path": "assets/banner.svg",
+        "contains": "Release pilot"
+      },
+      {
+        "path": "assets/site.css",
+        "contains": "color-scheme"
+      },
+      {
+        "path": "robots.txt",
+        "contains": "Sitemap: https://marcuspat.github.io/rig-standard-release-pilot-qzlk/sitemap.xml"
+      }
+    ],
+    "discovery": {
+      "robots": "shared",
+      "sitemap": "sitemap.xml",
+      "llms": "llms.txt",
+      "pages": [
+        {
+          "path": "",
+          "lang": "en",
+          "open_graph": true,
+          "schema_types": [
+            "WebSite"
+          ]
+        },
+        {
+          "path": "checks/",
+          "lang": "en"
+        }
+      ]
+    }
+  },
+  "artifacts": {
+    "application": "site",
+    "landing": "docs",
+    "readme": "README.md",
+    "release_notes": "CHANGELOG.md",
+    "banner_svg": "docs/assets/banner.svg",
+    "infographic_svg": "docs/assets/workflow.svg",
+    "readme_downloads": [
+      "rig-standard-release-pilot-qzlk-{tag}-landing.zip",
+      "SHA256SUMS"
+    ]
+  }
+}
