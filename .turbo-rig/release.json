@@ -19,7 +19,7 @@
     "uat": [
       {
         "path": "",
-        "contains": "Turbo Rig release pilot",
+        "contains": "Turbo Rig · v0.1.1",
         "link": "checks/"
       },
       {
